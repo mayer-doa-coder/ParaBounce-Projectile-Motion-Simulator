@@ -20,7 +20,7 @@ ParaBounce simulates projectile motion using physics principles and provides an 
    - Custom squid-themed graphics
 
 2. **Control Panel**:
-   - Initial velocity adjustment (0-100 m/s)
+   - Initial velocity adjustment (0-50 m/s)
    - Launch angle selection (0-90 degrees)
    - Gravity customization
    - Air resistance toggle
