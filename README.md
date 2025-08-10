@@ -1,22 +1,59 @@
 # ParaBounce Projectile Motion Simulator
 
-A dynamic web-based projectile motion simulator built with Next.js and TypeScript, featuring interactive controls and real-time visualizations.
+An interactive, physics-based projectile motion simulator built with Next.js and TypeScript. Experience real-time visualization of projectile trajectories with customizable parameters and a unique squid-themed interface.
+
+## How It Works
+
+ParaBounce simulates projectile motion using physics principles and provides an engaging way to visualize and understand the concepts of:
+- Projectile trajectories
+- Initial velocity and angle
+- Gravitational effects
+- Air resistance
+- Bounce mechanics
+
+### Key Components:
+
+1. **Interactive Canvas**: 
+   - Real-time visualization of projectile motion
+   - Dynamic trajectory plotting
+   - Smooth animations with requestAnimationFrame
+   - Custom squid-themed graphics
+
+2. **Control Panel**:
+   - Initial velocity adjustment (0-100 m/s)
+   - Launch angle selection (0-90 degrees)
+   - Gravity customization
+   - Air resistance toggle
+   - Bounce coefficient adjustment
+
+3. **Data Visualization**:
+   - Real-time position graphs (X vs Y)
+   - Velocity tracking
+   - Time-based measurements
+   - Maximum height indicators
+
+4. **Preset Configurations**:
+   - Earth gravity (9.81 m/s²)
+   - Moon gravity (1.62 m/s²)
+   - Mars gravity (3.72 m/s²)
+   - Custom gravity options
 
 ## Features
 
-- Real-time projectile motion simulation
+- Real-time physics simulation
 - Interactive parameter controls
-- Canvas size customization
-- Preset configurations
-- Data visualization with graphs
-- Custom squid-themed design system
-- Responsive layout
+- Customizable canvas size
+- Preset physics configurations
+- Advanced data visualization
+- Custom squid-themed design
+- Responsive layout for all devices
+- Educational tooltips and guides
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed:
+Before you begin, ensure you have installed:
 - Node.js (Latest LTS version recommended)
-- npm or yarn package manager
+- npm (Node Package Manager)
 
 ## Installation
 
@@ -29,30 +66,29 @@ cd ParaBounce-Projectile-Motion-Simulator
 2. Install dependencies:
 ```bash
 npm install
-# or
-yarn install
 ```
 
-## Development
+## Getting Started
 
-To run the development server with Turbopack:
-
+1. Start the development server:
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+2. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+3. Experiment with the simulator:
+   - Adjust the launch angle using the slider
+   - Set the initial velocity
+   - Choose a preset gravity configuration
+   - Toggle air resistance
+   - Click "Launch" to see the projectile in action!
 
 ## Building for Production
 
 ```bash
 npm run build
 npm run start
-# or
-yarn build
-yarn start
 ```
 
 ## Project Structure
