@@ -1,6 +1,6 @@
 # ParaBounce Projectile Motion Simulator
 
-An interactive, physics-based projectile motion simulator built with Next.js and TypeScript. Experience real-time visualization of projectile trajectories with customizable parameters and a unique squid-themed interface.
+An interactive, physics-based projectile motion simulator built with Next.js and TypeScript. Experience real-time visualization of projectile trajectories with customizable parameters and a unique squid game themed interface.
 
 ## How It Works
 
@@ -44,15 +44,15 @@ ParaBounce simulates projectile motion using physics principles and provides an 
 - Interactive parameter controls
 - Customizable canvas size
 - Preset physics configurations
-- Advanced data visualization
+- Advanced data visualization using graphs and real-time data
 - Custom squid-themed design
-- Responsive layout for all devices
+- Responsive layout for larger screens
 - Educational tooltips and guides
 
 ## Prerequisites
 
 Before you begin, ensure you have installed:
-- Node.js (Latest LTS version recommended)
+- Node.js (v22.17.0 recommended)
 - npm (Node Package Manager)
 
 ## Installation
@@ -152,10 +152,6 @@ The simulator supports modern browsers with ES2017 feature compatibility:
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
-
-## License
-
-This project is MIT licensed. See the LICENSE file for details.
 
 ## Contributing
 
